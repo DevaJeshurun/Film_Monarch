@@ -1,0 +1,141 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color:#2E003E;
+}
+.top-container{
+    display: flex;
+    background-color: #6A0DAD;
+    margin-top: 0;
+    padding: 0%;
+
+}
+.logo{
+    width: 210px;
+    height: 120px;
+    display: flex;
+    mix-blend-mode:color-dodge;
+
+}
+.search-bar {
+    display: flex;
+    margin-left: 17%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-size: cover;
+    margin-top: 20px;
+  
+}
+.search-bar input[type="text"] {
+    font-size: 16px;
+    width: 360px;
+    border-radius: 20px 0 0 20px;
+    border: 3px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+}
+.search-bar button{
+    border-radius: 0 20px 20px 0;
+    font-size: 16px;
+    padding: 10px;
+    border: 3px solid grey;
+    color: white;
+    background-color: #9A1750;
+    font-weight:bold;
+    
+}
+.sidebar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    padding-right: 30px;
+    margin: 0;
+    padding-top:30px;
+    background-color:#6A0DAD;
+   
+    
+}
+
+.sidebar li {
+    margin: 0 10px;
+}
+
+.sidebar a {
+    color: #F2F2F2;
+    text-decoration: none;
+    display: block;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.sidebar a:hover {
+    background-color: #9A1750;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+.slider-container{
+    padding: 2rem;
+}
+.slider-wrapper{
+    position: relative;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+}
+.trending{
+    font-size: 40px;
+    color: #F2F2F2;
+    
+}
+.tren{
+   
+    display: flex;
+}
